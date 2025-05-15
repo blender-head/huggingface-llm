@@ -32,6 +32,8 @@ Hugging Face is a company and open-source platform that has become a central hub
 - Deploying AI models without deep learning expertise.
 
 ## File List
+- `00_setup.ipynb`:
+    - Development environment setup
 - `01_introduction.ipynb`:
     - Course Introduction
 - `02_nlp_and_llm.ipynb`:
