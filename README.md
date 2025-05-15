@@ -52,3 +52,17 @@ Hugging Face is a company and open-source platform that has become a central hub
         -  Translation
         -  Image classification
         -  Automatic speech recognition
+- `04_how_transformer_works.ipynb`:
+    - A bit of Transformer history
+    - Transformers are language models (they have been trained on large amounts of raw text in a self-supervised fashion)
+    - Transfer Learning / Fine Tuning (the benefits of using existing pre-trained models and fine tuned it)
+    - General Transformer architecture:
+        - `Encoder-only models`: Good for tasks that require understanding of the input, such as sentence classification and named entity recognition.
+        - `Decoder-only models`: Good for generative tasks such as text generation.
+        - `Encoder-decoder models` or `sequence-to-sequence models`: Good for generative tasks that require an input, such as translation or summarization.
+    - Attention layers in a model based on a paper title `Attention Is All You Need!`
+    - The original architecture: `The Transformer architecture was originally designed for translation`
+    - Architectures vs. checkpoints:
+        - **Architecture**: This is the skeleton of the model — the definition of each layer and each operation that happens within the model.
+        - **Checkpoints**: These are the weights that will be loaded in a given architecture.
+        - **Model**: This is an umbrella term that isn’t as precise as “architecture” or “checkpoint”: it can mean both. This course will specify architecture or checkpoint when it matters to reduce ambiguity.
